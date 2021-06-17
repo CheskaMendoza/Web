@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>c</title>
+	<style>
+	
+
+	.column{
+		float: left;
+		width: 38%;
+		padding: 10px;
+		height: 100px;
+		margin-top: 2px;
+
+	}
+	.row:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	h1{
+		margin-top: 0px;
+	}
+	h5{
+		font-size: 15px;
+		margin-top: 8px;
+	}
+	body{
+		height: 0px;
+	}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Area and Perimeter of Rectangle:</h1>
+	<div class="row">
+		<div class="column">
+	
+			<center>
+<?php
+
+echo " <h5>For Area<br/></h5>";
+$length = 40;
+echo "length: $length <br/>";
+$w = 120;
+echo "width: $w <br/><br/>";
+
+$area = $length * $w;
+echo "Formula: <br/>"; 
+echo "Area = length * w <br/><br/>";
+echo "A = $length * $w <br/><br/>";
+echo "Answer is; <br/>";
+echo "Area of a rectangle: $area <br/><br/>";
+?>
+
+	</center>
+	</div>
+	<div class="row">
+		<div class="column">
+			<center>
+<?php	
+echo "<h5>For Perimeter<br/></h5>";
+$lenght = 40;
+echo "length = $lenght <br/>";
+$width =  20;
+echo "width= $width <br/><br/>";
+$pm = $length + $length + $width + $width;
+echo "Formula: <br/>";
+echo "Perimeter = length + length + width + width <br/><br/>";
+echo " P = $lenght + $lenght + $width + $width <br/><br/>";
+echo "Answer is: <br/>";
+echo "Perimeter of a rectangle: $pm <br/>";
+?>
+
+</center>
+</div>
+</div>
+</body>
+</html>
+
+	

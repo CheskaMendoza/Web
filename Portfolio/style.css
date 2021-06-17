@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: black;
+}
+.saitama{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 5%;
+	right: 0;
+}
+.saitama a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Algerian;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px;
+	float: right;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+}
+.saitama a:hover{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+.blast{
+	width: 100%;
+}
+.genos{
+	width: 95%;
+}
+.atomic{
+	width: 80%;
+}
+.bang{
+	width: 90%;
+}
+.onepunchman{
+	position: absolute;
+	width: 930px;
+	min-height: 580px;
+	height: auto;
+	left: 0;
+	top: 5%;
+	background: violet;
+}
+.Home{
+	position: absolute;
+	left: 2%;
+	bottom: 0;
+	color:black;
+	font-family: Algerian;
+	text-transform: uppercase;
+}
+.Home h1{
+	font-size: 80px;
+	padding:90 px;
+	border-bottom: 1px solid black; 
+}
+.Home h3{
+	font-size: 28px;
+	padding: 5px;
+}
+.myprofile{
+	position: absolute;
+	left: 2%;
+	right: 2%;
+	bottom: -50px;
+	font-family: century gothic;
+	top: 20px;
+	padding: 60px;
+	color: white;
+	text-align: center;
+	}
+.myprofile p{
+
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+.suiryu{
+	height: 150px;
+	width: 150px;
+	right: 0;
+}
+strong{
+	font-size: 50px;
+}
+strong:hover{
+	color: black;
+}
+
+table{
+	border-collapse: collapse;
+}
+img{
+	height: 60px;
+	width: 60px;
+}
+a{
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+a:hover{
+	color: black;
+}
+.lucy{
+height: 150px;
+width: 180px;	
+left: 5px;
+position: absolute;
+}
+.lucy:hover{
+	height: 200px;
+	width: 250px;
+}
+.natsu{
+height: 150px;
+width: 180px;	
+left: 5px;
+position: absolute;
+top: 35%;
+}
+.natsu:hover{
+	height:200px;
+	width: 250px;
+}
+.gildarts{
+height: 150px;
+width: 180px;	
+left: 5px;
+position: absolute;
+top: 70%;
+}
+.gildarts:hover{
+	height:200px;
+	width: 250px; 
+}
+.mira{
+height: 150px;
+width: 180px;	
+left: 29%;
+position: absolute;	
+top:0;
+}
+.mira:hover{
+	height:200px;
+	width: 250px;
+}
+.mystogan{
+height: 150px;
+width: 180px;	
+left: 29%;
+position: absolute;
+top: 35%;
+}
+.mystogan:hover{
+	height:200px;
+	width: 250px;
+	} 
+.laxus{
+height: 150px;
+width: 180px;	
+left: 29%;
+position: absolute;
+top: 70%;
+}
+.laxus:hover{
+	height:200px;
+	width: 250px;
+}
+.jellal{
+height: 150px;
+width: 180px;	
+left: 58%;
+position: absolute;
+top: 0;
+}
+.jellal:hover{
+	height:200px;
+	width: 250px;
+}
+.sting{
+height: 150px;
+width: 180px;	
+left: 58%;
+position: absolute;
+top: 35%;
+}
+.sting:hover{
+	height:200px;
+	width: 250px;
+}
+.rogue{
+height: 150px;
+width: 180px;	
+left: 58%;
+position: absolute;
+top: 70%;
+}
+.rogue:hover{
+	height:200px;
+	width: 250px;
+}
